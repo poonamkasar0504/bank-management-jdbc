@@ -1,18 +1,17 @@
-## Getting Started
+# Bank Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Console based Java application using JDBC and MySQL.
 
-## Folder Structure
+## Features
+- Create account
+- Check balance
+- Deposit / Withdraw
+- Transfer money (with transaction rollback)
+- Mini statement
 
-The workspace contains two folders by default, where:
+## Tech Used
+Java, JDBC, MySQL
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Database Setup
+Create database `bank_db` with `accounts` and `transactions` tables
+and update the password in `DBConnection.java`.
